@@ -101,3 +101,8 @@ Output will be saved as <input_file>_schema.json
    for each user.
 5. Make a copy of your `webui.db` database.
 6. Execute the generated SQL using a tool such as [DB Browser for SQLite](https://sqlitebrowser.org/dl/). Ensure you save the database.
+
+## Experimental webserver
+
+Run `python start_web_server.py` from the project root to launch a simple webserver for converting ChatGPT exports to Open-WebUI format.
+Open your browser at http://localhost:3010, upload your `conversations.json` file, enter your user ID, and download the converted ZIP file.
